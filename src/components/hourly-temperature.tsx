@@ -6,7 +6,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import {ResponsiveContainer, LineChart, XAxis, YAxis, Line, Tooltip} from "recharts";
-import {format} from "date-fns"
+import {format} from "date-fns";
 interface HourlyTemperatureProps {
   data: ForecastData;
 }
